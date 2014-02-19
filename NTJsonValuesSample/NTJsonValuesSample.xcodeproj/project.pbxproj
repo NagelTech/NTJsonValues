@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		F0DB062518B4443000AE97CD /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = F0DB062318B4443000AE97CD /* LICENSE */; };
 		F0DB062618B4443000AE97CD /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F0DB062418B4443000AE97CD /* README.md */; };
+		F0DB062818B4474400AE97CD /* NTJsonValues.podspec in Resources */ = {isa = PBXBuildFile; fileRef = F0DB062718B4474400AE97CD /* NTJsonValues.podspec */; };
 		F0F6A6ED18B439EF00B20E67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0F6A6EC18B439EF00B20E67 /* Foundation.framework */; };
 		F0F6A6EF18B439EF00B20E67 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0F6A6EE18B439EF00B20E67 /* CoreGraphics.framework */; };
 		F0F6A6F118B439EF00B20E67 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0F6A6F018B439EF00B20E67 /* UIKit.framework */; };
@@ -40,6 +41,7 @@
 /* Begin PBXFileReference section */
 		F0DB062318B4443000AE97CD /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../../LICENSE; sourceTree = "<group>"; };
 		F0DB062418B4443000AE97CD /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
+		F0DB062718B4474400AE97CD /* NTJsonValues.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = NTJsonValues.podspec; path = ../../NTJsonValues.podspec; sourceTree = "<group>"; };
 		F0F6A6E918B439EF00B20E67 /* NTJsonValuesSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NTJsonValuesSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0F6A6EC18B439EF00B20E67 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F0F6A6EE18B439EF00B20E67 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -164,6 +166,7 @@
 		F0F6A71B18B43A2400B20E67 /* NTJsonValues */ = {
 			isa = PBXGroup;
 			children = (
+				F0DB062718B4474400AE97CD /* NTJsonValues.podspec */,
 				F0DB062318B4443000AE97CD /* LICENSE */,
 				F0DB062418B4443000AE97CD /* README.md */,
 				F0F6A71C18B43AE600B20E67 /* NSDictionary+NTJsonValues.h */,
@@ -261,6 +264,7 @@
 				F0F6A6F718B439EF00B20E67 /* InfoPlist.strings in Resources */,
 				F0F6A72618B43EA700B20E67 /* sample.json in Resources */,
 				F0F6A72418B43E4500B20E67 /* MainViewController.xib in Resources */,
+				F0DB062818B4474400AE97CD /* NTJsonValues.podspec in Resources */,
 				F0F6A6FF18B439EF00B20E67 /* Images.xcassets in Resources */,
 				F0DB062518B4443000AE97CD /* LICENSE in Resources */,
 			);
