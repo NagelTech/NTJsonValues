@@ -49,7 +49,7 @@
 {
     id value = [self objectForKeyPath:keyPath defaultValue:nil];
     
-    return [value isKindOfClass:class] ? defaultValue : nil;
+    return [value isKindOfClass:class] ? value : defaultValue;
 }
 
 
